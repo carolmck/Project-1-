@@ -35,9 +35,9 @@
           </div>
           </div>
         </div>
-        <div class="container-fluid icons">
-          <!--<div class="icons">-->
-          <div class="row">
+
+
+          <div class="row icons">
               <div class="col-md-2">
                 Icon
               </div>
@@ -57,7 +57,6 @@
                 Icon
               </div>
             </div>
-          </div>
         </div>
 
     <!--end of navigation-->
@@ -67,42 +66,40 @@
         <!--start of search bar-->
         <div class="dashboard">
           <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 col-lg-9">
               <p>Dashboard</p>
             </div>
-            <div class="col-md-4">
-              <form action="#">
-                <input type="search" name="search" />
-                <input type="image" src="images/search.png"/>
-              </form>
+            <div class="col-md-4 col-lg-3">
+              <div class="input-group">
+                  <input type="text" class="form-control" placeholder="">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button"><i class="fa fa-search fa-lg"></i></button>
+                  </span>
+              </div>
             </div>
           </div>
         </div>
       <!--end of search bar-->
       <!--start of content box row-->
       <div class="gradient">
-        <div class="within-gradient">
+        <!--<div class="within-gradient">-->
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 within-gradient">
           <!--start of announcements bar-->
             <div class="row">
               <div class="col-md-2 border-top">
-                  <p id="orange">ANNOUNCEMENTS</p>
+                  <p class="announcements">Announcements</p>
               </div>
-              <div class="col-md-8 border-top">
+              <div class="col-md-9 border-top">
                   <p class="text">
                     Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus.
                   </p>
               </div>
               <div class="col-md-1 border-top">
-                <div id="arrows">
-                  <button class="arrow">
-                      <img src="images/Button-Navigation-Small-Left.png" alt="left arrow"/>
-                  </button>
-                  <button class="arrow">
-                      <img src="images/Button-Navigation-Small-Right.png" alt="right arrow"/>
-                  </button>
-                </div>
+                      <div class="arrow">
+                        <a href="#"><i class="fa fa-chevron-left"></i></a>
+                        <a href="#"><i class="fa fa-chevron-right"></i></a>
+                      </div>
               </div>
             </div>
         <!--end of announcements bar-->
@@ -112,19 +109,32 @@
               <div class="col-md-4">
                 <!--start of task box-->
                   <div class="row">
-                    <div class="col-md-9 border-bottom">
+                    <div class="col-md-12 border-bottom">
                       <h1>Tasks</h1>
-                      <ol class="tasks">
-                        <li id="light">Welcome Contacts</li>
-                        <li>Provide Responses</li>
-                        <li>Review Activity</li>
-                        <li>Reach Out</li>
-                      </ol>
-                    </div>
-                    <div class="col-md-3 border-bottom">
-                      <img src="images/settings-2.png"/>
+                        <div class="row border-bottom">
+                          <div class="col-md-12">
+                            <p id="light">Welcome Contacts</p>
+                          </div>
+                        <div class="row border-bottom">
+                          <div class="col-md-12">
+                            <p>Provide Responses</p>
+                          </div>
+                        </div>
+                        <div class="row border-bottom">
+                          <div class="col-md-12">
+                            <p>Review Activty</p>
+                          </div>
+                        </div>
+                        <div class="row border-bottom">
+                          <div class=col-md-12>
+                            <p>Reach Out</p>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
                     </div>
                   </div>
+                </div>
                 <!--end of task box-->
                 <!--start of recommendations box-->
                   <div class="row">
@@ -143,11 +153,13 @@
                     </div>
                   </div>
               </div>
+
+
           <!--end of tasks column-->
           <!--start of analytics column-->
               <div class="col-md-8">
                 <!--start of analytics box within column-->
-                  <div class="row">
+                  <div class="row border-bottom">
                     <div class="col-md-9">
                       <h1>Analytics</h1>
                         <p class="sub-head">Activity</p>
@@ -156,7 +168,33 @@
                     </div>
                     <div class="col-md-3">
                       <!--channels graph-->
+                      <div class="pie-charts">
+                        <ul class="channels">
+                          <li>Channels</li>
+                          <li class="image"><img src="images/pie-chart-1.png"/></li>
+                          <li>References</li>
+                          <li class="image"><img src="images/pie-chart-2.png"/></li>
+                        </ul>
+                      </div>
                     </div>
+                      <div class"row">
+                        <div class="col-md-12">
+                          <form>
+                            <ul class="social">
+                              <li><input type="checkbox" name="Facebook" value="Facebook"checked></li>
+                              <li><button class="button" id="fb"><p>Facebook</p></button></li>
+                              <li><input type="checkbox" name="Twitter" value="Twitter" checked></li>
+                              <li><button class="button" id="tweet"><p>Twitter</p></button></li>
+                              <li><input type="checkbox" name="Foursquare" value="Foursquare"></li>
+                              <li><button class="button" id="sqaure"><p>Foursquare</p></button></li>
+                              <li><input type="checkbox" name="Google+" vlaue="Google+"></li>
+                              <li><button class="button" id="plus"><p>Googe+</p></button></li>
+
+
+                            </ul>
+                          </form>
+                        </div>
+                      </div>
                   </div>
                   <div class="row">
                     <div class="col-md-6">
@@ -166,7 +204,7 @@
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 border-bottom">
                       <div id="know">
                         <p>DID YOU KNOW?</p>
                         <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
@@ -180,39 +218,41 @@
       <!--end of tasks and analytics-->
       <!--start of ads-->
           <div class="row" id="ads">
-            <div class="col-md-4 ad">
+            <div class="col-md-4 ad" id="ad-1">
+              Ad
             </div>
             <div class="col-md-4 ad">
+              Ad
             </div>
             <div class="col-md-4 ad">
+              Ad
             </div>
           </div>
       <!--end of ads-->
 
           </div>
         </div> <!--end of content box row-->
-      </div>
+      <!--</div>-->
       </div><!--gradient background div-->
     </div> <!--end of main content-->
     <!--start of footer-->
       <div class="container-fluid">
-        <div class="row footer">
-          <div class="col-md-1">
-            <p>Tutorials</p>
-          </div>
-          <div class="col-md-1">
-            <p>Support</p>
-          </div>
-          <div class="col-md-1">
-            <p>Blog</p>
-          </div>
-          <div class="col-md-5">
-            <p>Ariel Winter likes your Win A Cooper Sweepstakes Promotion</p>
-          </div>
-          <div class="col-md-2">
-            <p>Logout</p>
-          </div>
-          <div class="col-md-2">
+        <div class="row grey">
+          <div class="col-md-12">
+            <ul class="footer">
+              <li><a href="#">Tutorials</a></li>
+              <li><img src="images/line-1.png"/></li>
+              <li><a href="#">Support</a></li>
+              <li><img src="images/line-2.png"/></li>
+              <li><a href="#">Blog</a></li>
+              <li><img src="images/line-3.png"/></li>
+              <li><a href="#">Ariel Winter</a> likes your <a href="#">Win A Cooper Sweepstakes</a> Promotion</li>
+              <li><a class="button" href="#"><img src="images/up-arrow.png"/></a></li>
+              <li><img src="images/line-3.png"/></li>
+              <li><a href="#">Logout</a></li>
+              <li><img src="images/line-3.png"/></li>
+              <li>Social Icons</li>
+            </ul>
           </div>
         </div>
       </div>

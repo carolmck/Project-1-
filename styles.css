@@ -1,7 +1,11 @@
 p{
   margin: 0px;
-}
+  font-family: 'Myriad Pro Regular', sans-serif;
 
+}
+button{
+  border: none;
+}
 
 .strip{
   background-color: #218fe7;
@@ -16,7 +20,7 @@ ul.nav li{
 
 .icons{
   background-color: #194b74;
-  background-image: url("images/background.png")
+  background-image: url("images/background.png");
   background-position: center;
 
 }
@@ -33,37 +37,43 @@ ul.nav li{
   color: white;
   margin-left: 20px;
 }
-input[type=search]{
+/*input[type=search]{
   border:.5px solid #2db55b;
   border-radius: 5px;
   width: 200px;
   height: 40px;
   margin-right: 10px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 10px;*/
 }
+
+.input-group{
+padding-top: 10em;
+}
+
 .gradient{
   background-image: linear-gradient(#f6f6f6, white);
   border-radius: 10px;
   margin-top: 20px;
-  position: relative;
+  padding: 3%;
+
 }
 
-div.within-gradient{
-  margin-left: 3%;
+.within-gradient{
+  /*margin-left: 3%;
   margin-right: 3%;
+  margin-top: 3%;*/
+  background-color: white;
 
 }
 
 
 .border-top{
   border: 1px solid #eeeeee;
-  /*margin-left: 10px;*/
   border-collapse: collapse;
-  background-color: white;
-  margin-top: 15px;
+  padding: 10px;
   margin-bottom: 0px;
-  /*display: inline-block;*/
+  margin-top: 0px;
 }
 
 .border-bottom{
@@ -73,14 +83,13 @@ div.within-gradient{
   background-color: white;
 }
 
-/*.border p{
-  margin: 10px;*/
-}
-  div.border-top p#orange{
+
+  p.announcements {
   text-transform: uppercase;
   color: #fe8830;
   text-align: center;
   font-size: 1em;
+  padding: 2px;
 }
 
 p.text{
@@ -90,23 +99,24 @@ p.text{
 }
 
 
-div#arrows{
-  /*position: absolute;*/
-  display: inline;
-  padding: 0px;
-  margin-top:2px;
-  margin-bottom: 2px;
-}
-
- button.arrow {
+.arrow a {
   display: inline-block;
   padding: 0px;
-  border: none;
+  box-shadow: 0 0 5px #cccccc;
+  border-radius: 10px;
+  color: #ff9b13;
+  height: 19px;
+  width: 19px;
+  text-align: center;
+}
+
+.arrow{
+  padding: 2px;
 }
 
 h1{
   font-family:"Myriad Pro Regular", sans-serif;
-  font-size: 2.67em;
+  font-size: 2em;
   color:#2498f4;
   margin-left:10px;
 }
@@ -118,12 +128,15 @@ ul.tasks{
 
 }
 ul li#title{
-  font-size:1em;
+  margin-top: 0px;
+  font-size:.7em;
   color: #818181;
   border-bottom: 1px dotted #818181;
 }
+
 ul li#sub-title{
-  font-size:.836em;
+  margin-bottom: 0px;
+  font-size:.6em;
   color:#999999;
   margin-left: 40px;
   margin-top: 5px;
@@ -135,7 +148,8 @@ ul li#title img{
 }
 ol.tasks li{
   color: #2498f3;
-  font-size: 14pt;
+  font-size: 1em;
+  /*border-bottom: 1px solid #cccccc;*/
 }
 p.sub-head{
   text-transform: uppercase;
@@ -144,17 +158,80 @@ p.sub-head{
   margin-left: 25px;
   margin-top:20px;
 }
-li#light{
+p#light{
   color: #cccccc;
+}
+
+form ul.social{
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+  form ul.social li{
+  list-style-type: none;
+  display: inline;
+}
+
+form ul.social li input[type="checkbox"]{
+  margin-top: 20px;
+}
+
+.button{
+  border-radius: 5px;
+}
+
+.button#fb{
+  background-color: #114570;
+}
+
+.button#tweet{
+  background-color: #2298f4;
+}
+
+.button#sqaure{
+  background-color: #3a599b;
+}
+
+.button#plus{
+  background-color: #31cc66;
+}
+
+.button p{
+  color: white;
+  font-family: "Myriad Pro Regular", sans-serif;
+  font-size: .6em;
+}
+
+.pie-charts{
+  padding-right: 40px;
+  padding-top: 60px;
+}
+ul.channels li{
+  list-style-type: none;
+  text-transform: uppercase;
+  color: #818181;
+  font-size: .8em;
+  line-height: 3em;
+}
+
+ul.channels li.image{
+  margin-right: 20px;
 }
 
 div#know{
   background-color: #2498f4;
   border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+div#know p{
+color: white;
+font-family: 'Myriad Pro Regular', sans-serif;
 }
 
-div#ads{
+#ads{
   background-color: #2498f4;
+  padding-top: 10px;
+  padding: 10px;
 }
 
 div.ad{
@@ -162,10 +239,25 @@ div.ad{
   border-radius: 10px;
 }
 
-.footer{
+#ad-1{
+  background-image: url("images/ads-1.png");
+}
+
+.grey{
   background-color: #f7f7f7;
   border-top: solid 1px white;
   box-shadow: 10px #e2e2e2;
   -moz-box-shadow: 10px #e2e2e2;
   -webkit-box-shadow: 10px #e2e2e2;
+}
+ul.footer{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+ul.footer li{
+  display: inline;
+}
+ul.footer li a{
+  text-decoration: none;
+  color: #2498f4;
 }
