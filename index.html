@@ -11,6 +11,9 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="css/sprites-1.css" rel="stylesheet">
+  <link href="css/sprites-2.css" rel="stylesheet">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,22 +42,22 @@
 
           <div class="row icons">
               <div class="col-md-2">
-                Icon
+                <div class="dashboard-top"></div>
               </div>
               <div class="col-md-2">
-                Icon
+                <div class="customers"></div>
               </div>
               <div class="col-md-2">
-                Icon
+                <div class="messages"></div>
               </div>
               <div class="col-md-2">
-                Icon
+                <div class="promotions-green"></div>
               </div>
               <div class="col-md-2">
-                Icon
+                <div class="creator"></div>
               </div>
               <div class="col-md-2">
-                Icon
+                <div class="analytics"></div>
               </div>
             </div>
         </div>
@@ -110,110 +113,132 @@
                 <!--start of task box-->
                   <div class="row">
                     <div class="col-md-12 border-bottom">
-                      <h1>Tasks</h1>
+                      <p>Tasks<img src="images/settings-2.png"/></p>
                         <div class="row border-bottom">
-                          <div class="col-md-12">
+                          <div class="col-md-12 numeral">
                             <p id="light">Welcome Contacts</p>
                           </div>
+                        </div>
                         <div class="row border-bottom">
-                          <div class="col-md-12">
+                          <div class="col-md-12 numeral">
                             <p>Provide Responses</p>
                           </div>
                         </div>
                         <div class="row border-bottom">
-                          <div class="col-md-12">
+                          <div class="col-md-12 numeral">
                             <p>Review Activty</p>
                           </div>
                         </div>
                         <div class="row border-bottom">
-                          <div class=col-md-12>
+                          <div class="col-md-12 numeral">
                             <p>Reach Out</p>
                           </div>
                         </div>
                       </div>
-                      </div>
                     </div>
-                  </div>
-                </div>
-                <!--end of task box-->
-                <!--start of recommendations box-->
-                  <div class="row">
-                    <div class="col-md-12 border-bottom">
-                      <h1>Recommendations</h1>
-                      <ul class="tasks">
-                        <li id="sub-title">Article</li>
-                          <li id="title"><img src="images/article.png"/> 7 Steps to getting more Fans </li>
-                        <li id="sub-title">Article</li>
-                          <li id="title"><img src="images/article.png"/> Increase traction with more interactions</li>
-                        <li id="sub-title">Checklist</li>
-                          <li id="title"><img src="images/check.png"/>Creating a Promotion</li>
-                        <li id="sub-title">Tip</li>
-                        <li id="title"><img src="images/bulb.png"/>Share More</li>
-                      </ul>
-                    </div>
-                  </div>
-              </div>
-
-
-          <!--end of tasks column-->
-          <!--start of analytics column-->
-              <div class="col-md-8">
-                <!--start of analytics box within column-->
-                  <div class="row border-bottom">
-                    <div class="col-md-9">
-                      <h1>Analytics</h1>
-                        <p class="sub-head">Activity</p>
-                      <!--Analytics chart-->
-                        <img src="images/analytics-chart.png" alt="Graph of activity by date" />
-                    </div>
-                    <div class="col-md-3">
-                      <!--channels graph-->
-                      <div class="pie-charts">
-                        <ul class="channels">
-                          <li>Channels</li>
-                          <li class="image"><img src="images/pie-chart-1.png"/></li>
-                          <li>References</li>
-                          <li class="image"><img src="images/pie-chart-2.png"/></li>
-                        </ul>
-                      </div>
-                    </div>
-                      <div class"row">
-                        <div class="col-md-12">
-                          <form>
-                            <ul class="social">
-                              <li><input type="checkbox" name="Facebook" value="Facebook"checked></li>
-                              <li><button class="button" id="fb"><p>Facebook</p></button></li>
-                              <li><input type="checkbox" name="Twitter" value="Twitter" checked></li>
-                              <li><button class="button" id="tweet"><p>Twitter</p></button></li>
-                              <li><input type="checkbox" name="Foursquare" value="Foursquare"></li>
-                              <li><button class="button" id="sqaure"><p>Foursquare</p></button></li>
-                              <li><input type="checkbox" name="Google+" vlaue="Google+"></li>
-                              <li><button class="button" id="plus"><p>Googe+</p></button></li>
-
-
-                            </ul>
-                          </form>
+                    <!--start of recommendations box-->
+                      <div class="row">
+                        <div class="col-md-12 border-bottom">
+                          <h1>Recommendations</h1>
+                          <ul class="tasks">
+                            <li id="sub-title">Article</li>
+                              <li id="title"><img src="images/article.png"/> 7 Steps to getting more Fans </li>
+                            <li id="sub-title">Article</li>
+                              <li id="title"><img src="images/article.png"/> Increase traction with more interactions</li>
+                            <li id="sub-title">Checklist</li>
+                              <li id="title"><img src="images/check.png"/>Creating a Promotion</li>
+                            <li id="sub-title">Tip</li>
+                            <li id="title" class="last"><img src="images/bulb.png"/>Share More</li>
+                          </ul>
                         </div>
                       </div>
                   </div>
-                  <div class="row">
-                    <div class="col-md-6">
-                        <!--75 contacts graphic-->
-                    </div>
-                    <div class="col-md-6">
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12 border-bottom">
-                      <div id="know">
-                        <p>DID YOU KNOW?</p>
-                        <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
-                    </div>
-                    </div>
-                  </div>
+                  <!--end of tasks column-->
+                  <!--start of analytics column-->
+                      <div class="col-md-8">
+                        <!--start of analytics box within column-->
+                          <div class="row border-bottom">
+                            <div class="col-md-9">
+                              <h1>Analytics</h1>
+                                <p class="sub-head">Activity</p>
+                              <!--Analytics chart-->
+                                <img src="images/analytics-chart.png" alt="Graph of activity by date" />
+                            </div>
+                            <div class="col-md-3">
+                              <!--channels graph-->
+                              <div class="pie-charts">
+                                <ul class="channels">
+                                  <li>Channels</li>
+                                  <li class="image"><img src="images/pie-chart-1.png"/></li>
+                                  <li>References</li>
+                                  <li class="image"><img src="images/pie-chart-2.png"/></li>
+                                </ul>
+                              </div>
+                            </div>
+                              <div class"row">
+                                <div class="col-md-12">
+                                  <form>
+                                    <ul class="social">
+                                      <li><input type="checkbox" name="Facebook" value="Facebook"checked></li>
+                                      <li><button class="button" id="fb"><p>Facebook</p></button></li>
+                                      <li><input type="checkbox" name="Twitter" value="Twitter" checked></li>
+                                      <li><button class="button" id="tweet"><p>Twitter</p></button></li>
+                                      <li><input type="checkbox" name="Foursquare" value="Foursquare"></li>
+                                      <li><button class="button" id="sqaure"><p>Foursquare</p></button></li>
+                                      <li><input type="checkbox" name="Google+" vlaue="Google+"></li>
+                                      <li><button class="button" id="plus"><p>Googe+</p></button></li>
+
+
+                                    </ul>
+                                  </form>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="row border-bottom">
+                            <div class="col-md-6">
+                                <!--75 contacts graphic-->
+                                <div><!--div that holds everything-->
+                                  <div class="visible"><!--visible white box-->
+                                      <div class="avatar-green"></div>
+                                        <div class="banner">
+                                            <p>75 Contacts</p>
+                                            <p>4 influences</p>
+                                        </div>
+                                      <div class="chart-1"></div>
+                                  </div><!-- closing visible white box div-->
+                                </div><!--closing div that holds everything tag-->
+                            </div>
+                            <div class="col-md-6">
+                              <div><!--div that holds everything-->
+                                <div class="visible"><!--visible white box-->
+                                    <div class="avatar-orange"></div>
+                                      <div class="banner">
+                                          <p id="17">17 Costumers</p>
+                                          <p>0 influences</p>
+                                      </div>
+                                    <div class="chart-2"></div>
+                                </div><!-- closing visible white box div-->
+                              </div><!--closing div that holds everything tag-->
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12 border-bottom">
+                              <div id="know">
+                                <p>DID YOU KNOW?</p>
+                                <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
+                            </div>
+                            </div>
+                          </div>
+                      </div>
+                  <!--end of analytics box-->
+                </div>
+                <!--end of task box-->
+
               </div>
-          <!--end of analytics box-->
+
+
+
           </div>
       <!--end of tasks and analytics-->
       <!--start of ads-->
@@ -232,9 +257,9 @@
 
           </div>
         </div> <!--end of content box row-->
-      <!--</div>-->
-      </div><!--gradient background div-->
-    </div> <!--end of main content-->
+      <!--</div>
+      </div> gradient background div
+    </div> end of main content-->
     <!--start of footer-->
       <div class="container-fluid">
         <div class="row grey">

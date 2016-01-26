@@ -1,0 +1,51 @@
+.avatar-orange, .avatar-green, .ribbon-right, .ribbon-left, .chart-1, .chart-2{
+	background: url(../images/sprites-2.png) no-repeat;
+}
+
+.avatar-orange{
+	background-position: 0 -15px ;
+	width: 95px;
+	height: 86px;
+	position: relative;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+.avatar-green{
+	background-position: -138px -13px ;
+	width: 95px;
+	height: 86px;
+	position: relative;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+.ribbon-right{
+	background-position: -312px -44px ;
+	width: 72px;
+	height: 72px;
+}
+
+.ribbon-left{
+	background-position: -264px -43px ;
+	width: 72px;
+	height: 72px;
+}
+
+.chart-1{
+	background-position: -32px -135px ;
+	width: 217px;
+	height: 102px;
+	position: relative;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.chart-2{
+	background-position: -283px -136px ;
+	width: 217px;
+	height: 102px;
+	position-relative;
+	margin-left: 25px;
+	margin-right: 25px;
+}

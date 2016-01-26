@@ -1,8 +1,8 @@
 p{
   margin: 0px;
   font-family: 'Myriad Pro Regular', sans-serif;
-
 }
+
 button{
   border: none;
 }
@@ -10,6 +10,7 @@ button{
 .strip{
   background-color: #218fe7;
 }
+
 ul.nav li{
   display: inline;
   padding: 5px;
@@ -22,7 +23,12 @@ ul.nav li{
   background-color: #194b74;
   background-image: url("images/background.png");
   background-position: center;
+}
 
+.customers{
+background-position: -103px -7px;
+width: 90px;
+height: 90px;
 }
 
 .dashboard{
@@ -31,24 +37,16 @@ ul.nav li{
   border-radius: 10px;
   margin-top: 20px;
 }
+
 .dashboard p{
   font-family: "Myriad Pro Regular", sans-serif;
   font-size:36pt;
   color: white;
   margin-left: 20px;
 }
-/*input[type=search]{
-  border:.5px solid #2db55b;
-  border-radius: 5px;
-  width: 200px;
-  height: 40px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;*/
-}
 
 .input-group{
-padding-top: 10em;
+padding-top: 1em;
 }
 
 .gradient{
@@ -56,7 +54,6 @@ padding-top: 10em;
   border-radius: 10px;
   margin-top: 20px;
   padding: 3%;
-
 }
 
 .within-gradient{
@@ -121,11 +118,31 @@ h1{
   margin-left:10px;
 }
 
+span.wide{
+  display: inline-block;
+}
+div.numeral{
+  padding: 10px;
+}
+
+div.numeral p{
+font-family:"Myriad Pro Regular", sans-serif;
+color: #2498f3;
+}
+
+p#light{
+  color: #cccccc;
+}
+
 ul.tasks{
   list-style-type: none;
   line-height: 5px;
   padding-left: 10px;
 
+}
+
+ul li.last{
+  margin-bottom: 106px;
 }
 ul li#title{
   margin-top: 0px;
@@ -158,9 +175,7 @@ p.sub-head{
   margin-left: 25px;
   margin-top:20px;
 }
-p#light{
-  color: #cccccc;
-}
+
 
 form ul.social{
   margin-left: 40px;
@@ -216,6 +231,26 @@ ul.channels li{
 ul.channels li.image{
   margin-right: 20px;
 }
+
+div.visible{
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  box-shadow: 5px #b2b2b2;
+}
+
+div.banner{
+  background-color: #2498f4;
+}
+
+div.banner p{
+  color: white;
+  font-family: "Myriad Pro Regular", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
 
 div#know{
   background-color: #2498f4;
