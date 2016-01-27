@@ -18,12 +18,6 @@
 	height: 90px;
 }
 
-.creator-blue{
-	background-position: -399px -109px ;
-	width: 90px;
-	height: 90px;
-}
-
 .customers{
 	background-position: -103px -7px ;
 	width: 90px;
@@ -31,6 +25,12 @@
 }
 
 .customers-blue{
+	background-position: -106px -100px ;
+	width: 90px;
+	height: 90px;
+}
+
+a:hover .customers{
 	background-position: -106px -100px ;
 	width: 90px;
 	height: 90px;
@@ -48,8 +48,8 @@
 	height: 90px;
 }
 
-.messages-blue{
-	background-position: -502px -99px ;
+a:hover .promotions-green{
+	background-position: -204px -100px ;
 	width: 90px;
 	height: 90px;
 }
@@ -66,8 +66,26 @@
 	height: 90px;
 }
 
+a:hover .dashboard-top{
+	background-position: -299px -100px ;
+	width: 90px;
+	height: 90px;
+}
+
 .messages{
 	background-position: -502px 0;
+	width: 90px;
+	height: 90px;
+}
+
+.messages-blue{
+	background-position: -502px -99px ;
+	width: 90px;
+	height: 90px;
+}
+
+a:hover .messages{
+	background-position: -502px -99px ;
 	width: 90px;
 	height: 90px;
 }
@@ -80,6 +98,12 @@ a:hover .messages{
 
 .creator{
 	background-position: -404px -10px ;
+	width: 90px;
+	height: 90px;
+}
+
+.creator-blue{
+	background-position: -399px -109px ;
 	width: 90px;
 	height: 90px;
 }

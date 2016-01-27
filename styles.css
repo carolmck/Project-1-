@@ -190,10 +190,14 @@ ul li.last{
   margin-bottom: 106px;
 }
 ul li#title{
-  margin-top: 0px;
+  margin-top: -13px;
   font-size:.7em;
   color: #818181;
   border-bottom: 1px dotted #818181;
+}
+
+ul li#title img{
+  margin-top: 5px;
 }
 
 ul li#sub-title{
@@ -265,6 +269,10 @@ form ul.social li input[type="checkbox"]{
   padding-right: 40px;
   padding-top: 60px;
 }
+
+img#bar-graph{
+  width: 100%
+}
 ul.channels li{
   list-style-type: none;
   text-transform: uppercase;
@@ -278,6 +286,7 @@ ul.channels li.image{
 }
 
 div.visible{
+  margin-top: 20px;
   background-color: white;
   border: 1px solid #cccccc;
   border-radius: 10px;
@@ -294,15 +303,16 @@ div.banner p{
   text-align: center;
   text-transform: uppercase;
 }
-
-
-
+div.banner p#banner-big{
+  font-size: 1.2em;
+}
 div#know{
   background-color: #2498f4;
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
 }
+
 div#know p{
 color: white;
 font-family: 'Myriad Pro Regular', sans-serif;
