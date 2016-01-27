@@ -7,7 +7,9 @@
 	width: 90px;
 	height: 90px;
 }
-
+.analytics a:hover{
+	background: img('analytics-blue') 0 -111px;
+}
 .analytics{
 	background-position: -2px -10px ;
 	width: 90px;

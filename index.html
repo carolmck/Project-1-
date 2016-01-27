@@ -41,6 +41,7 @@
 
 
           <div class="row icons">
+            <div class="nav-icons">
               <div class="col-md-2">
                 <div class="dashboard-top"></div>
               </div>
@@ -57,9 +58,10 @@
                 <div class="creator"></div>
               </div>
               <div class="col-md-2">
-                <div class="analytics"></div>
+                <a href="#"><div class="analytics"></div></a>
               </div>
             </div>
+          </div><!--closing row-->
         </div>
 
     <!--end of navigation-->
@@ -113,25 +115,43 @@
                 <!--start of task box-->
                   <div class="row">
                     <div class="col-md-12 border-bottom">
-                      <p>Tasks<img src="images/settings-2.png"/></p>
+                      <div class="setting-bar">
+                        <h1>Tasks</h1><a href="#"><img src="images/settings-2.png"/></a>
+                      </div>
                         <div class="row border-bottom">
                           <div class="col-md-12 numeral">
-                            <p id="light">Welcome Contacts</p>
+                            <a href="#">
+                              <div id="label">1 Welcome Contacts
+                                <span id="count"><img src="images/person-icon.png"/>32</span>
+                              </div>
+                            </a>
                           </div>
                         </div>
                         <div class="row border-bottom">
                           <div class="col-md-12 numeral">
-                            <p>Provide Responses</p>
+                            <a href="#">
+                              <div id="label">2 Provide Responses
+                                <span id="count"><img src="images/icon-person-blue.png"/>36</span>
+                              </div>
+                            </a>
                           </div>
                         </div>
                         <div class="row border-bottom">
                           <div class="col-md-12 numeral">
-                            <p>Review Activty</p>
+                            <a href="#">
+                              <div id="label">3 Review Activty
+                                <span id="count"><img src="images/icon-person-blue.png"/>36</span>
+                              </div>
+                            </a>
                           </div>
                         </div>
                         <div class="row border-bottom">
                           <div class="col-md-12 numeral">
-                            <p>Reach Out</p>
+                            <a href="#">
+                              <div id="label">4 Reach Out
+                                <span id="count"><img src="images/icon-person-blue.png"/>3</span>
+                              </div>
+                            </a>
                           </div>
                         </div>
                       </div>
@@ -187,8 +207,6 @@
                                       <li><button class="button" id="sqaure"><p>Foursquare</p></button></li>
                                       <li><input type="checkbox" name="Google+" vlaue="Google+"></li>
                                       <li><button class="button" id="plus"><p>Googe+</p></button></li>
-
-
                                     </ul>
                                   </form>
                                 </div>
