@@ -175,16 +175,23 @@ div.numeral span#count{
   margin-left: 80px;
 }
 
-/*Can't get this to work
-div.numeral a#count span.digit{
-  padding-top: 2px;
-}*/
+div#label span.digit p{
+  color: white;
+  background-color: #32cc66;
+  border-radius: 50%;
+  padding: 4px;
+  display: inline-block;
+}
+
+div#label span.digit a:hover{
+    color: #2498f3;
+}
+
 
 ul.tasks {
   list-style-type: none;
   line-height: 5px;
   padding-left: 10px;
-
 }
 
 ul li.last{
@@ -266,18 +273,26 @@ form ul.social li input[type="checkbox"]{
   font-size: .6em;
 }
 
-.pie-charts{
-  padding-right: 40px;
+.pie-charts ul.channels{
+  padding-right: 30px;
   padding-top: 60px;
+  padding-left: 10px;
+  position: relative;
 }
 
-.piecharts img{
+.piecharts ul.channels li.image img{
   width: 100%;
+  position: absolute;
+  right: 40px;
 }
 
+div.analytics-chart{
+  border-right: 1px solid #eeeeee;
+}
 img#bar-graph{
   width: 100%
 }
+
 ul.channels li{
   list-style-type: none;
   text-transform: uppercase;
@@ -325,7 +340,7 @@ div#know{
   border-radius: 10px;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin: 10px;
+  margin: 20px;
   min-height: 190px;
   position: relative;
 }
@@ -333,6 +348,7 @@ div#know{
 div#know p{
 color: white;
 font-family: 'Myriad Pro Regular', sans-serif;
+margin-top: 25px;
 }
 
 div#know a.slider{
@@ -343,20 +359,37 @@ div#know a.slider{
 }
 
 div#know div#left a.slider i{
-  background-image: url("images/circle-back.png");
+  /*background-image: url("images/circle-back.png");*/
   display: block;
   background-position: center;
   background-repeat: no-repeat;
   margin: 0px;
   height: 50px;
+  position: absolute;
+  top: 60px;
 }
 
 div#know div#right a.slider i{
-  background-image: url("images/circle-next.png");
   display:block;
   background-position: center;
   background-repeat: no-repeat;
   height: 50px;
+  position: absolute;
+  right: 35px;
+  top: 65px;
+  z-index: 2;
+}
+
+img.class-1{
+  position: absolute;
+  top: 30px;
+}
+
+img.class-2{
+  position: absolute;
+  left: 35px;
+  top: 35px;
+  z-index: 1;
 }
 
 div.book-end{
@@ -373,31 +406,31 @@ div.book-end{
 div.ad{
   background-color: #ffffff;
   border-radius: 10px;
-  max-width: 250px;
+  /*max-width: 250px;*/
   height: 150px;
+  width: 275px;
   position: relative;
 }
 
 img#ad-1{
   position: absolute;
-  left: 10px;
+  left: -25px;
+  bottom: -33px;
 }
 
-/*div.ad div#ad-1{
-  margin-right: 20px;
-}*/
-/*div.ad div#ad-1 img{
+img#ad-2{
   position: relative;
-  margin-left:-39.5px;
-  margin-top:-33px;
-  margin-right: 20px;
-}*/
-
-div.ad div#ad-2 img{
-  position: relative;
-  margin-left: -50px;
-  margin-top: -15px;
+  left: 5px;
+  bottom: 22px;
 }
+
+img#ad-3{
+  position: relative;
+  right: -44px;
+  top: 1.2px;
+}
+
+
 
 .grey{
   background-color: #f7f7f7;
