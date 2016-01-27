@@ -6,9 +6,10 @@
 	background-position: 0 -15px ;
 	width: 95px;
 	height: 86px;
-	position: relative;
-	margin-left: 80px;
-	margin-right: 80px;
+	position: absolute;
+	left: 125px;
+	right: 80px;
+	bottom: 142px;
 	z-index: 100;
 }
 
@@ -16,9 +17,10 @@
 	background-position: -138px -13px ;
 	width: 95px;
 	height: 86px;
-	position: relative;
-	margin-left: 80px;
-	margin-right: 80px;
+	position: absolute;
+	left: 120px;
+	right: 90px;
+	bottom: 142px;
 	z-index: 100;
 }
 
@@ -26,20 +28,25 @@
 	background-position: -312px -44px ;
 	width: 72px;
 	height: 72px;
+	position: absolute;
+	left: 320px;
+	bottom: 86px;
 }
 
 .ribbon-left{
 	background-position: -264px -43px ;
 	width: 72px;
 	height: 72px;
+	position: absolute;
+	left: -25px;
+	bottom: 86px;
 }
 
 .chart-1{
 	background-position: -32px -135px ;
 	width: 217px;
 	height: 102px;
-	position: relative;
-	margin-left: 25px;
+	margin-left: 40px;
 	margin-right: 25px;
 }
 
@@ -47,7 +54,6 @@
 	background-position: -283px -136px ;
 	width: 217px;
 	height: 102px;
-	position-relative;
-	margin-left: 25px;
+	margin-left: 40px;
 	margin-right: 25px;
 }

@@ -290,6 +290,7 @@ ul.channels li.image{
   margin-right: 20px;
 }
 
+
 div.visible{
   margin-top: 20px;
   background-color: white;
@@ -298,6 +299,7 @@ div.visible{
   box-shadow: 5px #b2b2b2;
   z-index: 50;
   padding: 0px;
+
 }
 
 div.banner{
@@ -324,6 +326,8 @@ div#know{
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 10px;
+  min-height: 190px;
+  position: relative;
 }
 
 div#know p{
@@ -334,7 +338,8 @@ font-family: 'Myriad Pro Regular', sans-serif;
 div#know a.slider{
   color: #ff9b13;
   text-decoration: none;
-  /*position: relative;*/
+  position: absolute;
+  width: 90px;
 }
 
 div#know div#left a.slider i{
@@ -343,6 +348,7 @@ div#know div#left a.slider i{
   background-position: center;
   background-repeat: no-repeat;
   margin: 0px;
+  height: 50px;
 }
 
 div#know div#right a.slider i{
@@ -350,6 +356,7 @@ div#know div#right a.slider i{
   display:block;
   background-position: center;
   background-repeat: no-repeat;
+  height: 50px;
 }
 
 div.book-end{
@@ -366,11 +373,17 @@ div.book-end{
 div.ad{
   background-color: #ffffff;
   border-radius: 10px;
+  max-width: 250px;
+}
+
+div.ad div#ad-1{
+  margin-right: 20px;
 }
 div.ad div#ad-1 img{
   position: relative;
   margin-left:-39.5px;
   margin-top:-33px;
+  margin-right: 20px;
 }
 .grey{
   background-color: #f7f7f7;
