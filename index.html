@@ -26,7 +26,7 @@
     <!--start of navigation-->
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-12 strip">
+          <div class="col-xs-12 col-md-12 strip">
             <div>
             <ul class="nav">
               <li><img src="images/settings.png"/></li>
@@ -55,7 +55,7 @@
                 <a href="#"><div class="promotions-green"></div></a>
               </div>
               <div class="col-md-2">
-                <a href="#"<div class="creator"></div></a>
+                <a href="#"><div class="creator"></div></a>
               </div>
               <div class="col-md-2">
                 <a href="#"><div class="analytics"></div></a>
@@ -239,15 +239,28 @@
                               </div><!--closing div that holds everything tag-->
                             </div>
                           </div>
-                          <div class="row">
-                            <div class="col-md-12 border-bottom">
-                              <div id="know">
-                                <p>DID YOU KNOW?</p>
-                                <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
+                          <div class="row border-bottom">
+                            <div id="know">
+                              <div class="col-md-1 book-end">
+                              <!--arrow buttons go here-->
+                                  <div id="left">
+                                    <a href="#" class="slider"><i class="fa fa-chevron-left"></i></a>
+                                  </div>
+                              </div>
+                              <div class="col-md-10"><!--text-column-->
+                                <p>DID YOU KNOW?<br>
+                                Maecenas sed diam eget risus varius blandit sit amet non magna.<br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.
+                                </p>
+                              </div><!--text column-->
+                            <div class="col-md-1 book-end">
+                              <!--arrow buttons go here-->
+                                <div id="right">
+                                  <a href="#" class="slider"><i class="fa fa-chevron-right"></i></a>
+                                </div>
                             </div>
-                            </div>
-                          </div>
+                          </div><!--close of div#know-->
+                        </div><!--close of row-->
                       </div>
                   <!--end of analytics box-->
                 </div>
@@ -261,8 +274,10 @@
       <!--end of tasks and analytics-->
       <!--start of ads-->
           <div class="row" id="ads">
-            <div class="col-xs-4 col-md-4 ad" id="ad-1">
-              Ad
+            <div class="col-xs-4 col-md-4 ad">
+              <div id="ad-1">
+                <img src="images/ad-1.png"/>
+              </div>
             </div>
             <div class="col-xs-4 col-md-4 ad">
               Ad
