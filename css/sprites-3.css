@@ -1,0 +1,76 @@
+.youtube-dead, .foursquare-dead, .twitter-dead, .facebook-dead, .youtube-live, .foursquare-live, .twitter-live, .facebook-live{
+	background: url(../images/sprites-3.png) no-repeat;
+}
+
+.youtube-dead{
+	background-position: 0 0;
+	width: 24px;
+	height: 22px;
+}
+
+a:hover .youtube-dead{
+	background-position: -3px -40px ;
+	width: 24px;
+	height: 22px;
+}
+
+.youtube-live{
+	background-position: -3px -40px ;
+	width: 24px;
+	height: 22px;
+}
+
+.foursquare-dead{
+	background-position: -53px -1px ;
+	width: 24px;
+	height: 22px;
+}
+
+a:hover .foursquare-dead{
+	background-position: -40px -42px ;
+	width: 24px;
+	height: 22px;
+}
+
+.foursquare-live{
+	background-position: -40px -42px ;
+	width: 24px;
+	height: 22px;
+}
+
+
+.twitter-dead{
+	background-position: -102px 0;
+	width: 24px;
+	height: 22px;
+}
+
+a:hover .twitter-dead{
+	background-position: -91px -41px ;
+	width: 24px;
+	height: 22px;
+}
+
+.twitter-live{
+	background-position: -91px -41px ;
+	width: 24px;
+	height: 22px;
+}
+
+.facebook-dead{
+	background-position: -150px -1px ;
+	width: 24px;
+	height: 22px;
+}
+
+a:hover .facebook-dead{
+	background-position: -140px -40px ;
+	width: 24px;
+	height: 22px;
+}
+
+.facebook-live{
+	background-position: -140px -40px ;
+	width: 24px;
+	height: 22px;
+}

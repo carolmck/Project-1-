@@ -1,0 +1,15 @@
+.tasks-person-icon-blue, .tasks-person-icon-grey{
+	background: url(../images/sprites-4.png) no-repeat;
+}
+
+.tasks-person-icon-blue{
+	background-position: 0 0;
+	width: 30px;
+	height: 23px;
+}
+
+.tasks-person-icon-grey{
+	background-position: -49px -1px ;
+	width: 30px;
+	height: 23px;
+}

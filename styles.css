@@ -116,10 +116,12 @@ p.text{
   height: 19px;
   width: 19px;
   text-align: center;
+  margin-right: 4px;
 }
 
 .arrow{
   padding: 2px;
+  margin-left: 5px;
 }
 
 h1{
@@ -136,7 +138,27 @@ h1{
 .setting-bar img{
   margin-left:50%;
 }
+div.numeral a.bsut p, div.numeral a.bust div.tasks-person-icon{
+  display: inline-block;
+}
+div.numeral div.tasks-circle{
+  background-color: #32cc66;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  position: relative;
+  padding-left: 7px;
+  padding-top: 1px;
+}
 
+div.numeral div.tasks-circle p{
+  color: white;
+  position: absolute;
+}
+
+div.numeral div.tasks-person-icon{
+  display: inline;
+}
 
 div.numeral{
   padding: 10px;
@@ -223,19 +245,28 @@ ul li#title img{
 ol.tasks li{
   color: #2498f3;
   font-size: 1em;
-  /*border-bottom: 1px solid #cccccc;*/
 }
+
 p.sub-head{
   text-transform: uppercase;
   font-size: 1.087em;
   color: #818181;
   margin-left: 25px;
-  margin-top:20px;
+}
+
+div.btn-group p, div.btn-group button.btn{
+  display: inline-block;
+}
+
+button.btn{
+  background-color: white;
+  border: 1px solid #eeeeee;
+  margin-left: 120px;
 }
 
 
 form ul.social{
-  margin-left: 40px;
+  margin-left: 10px;
   margin-bottom: 20px;
 }
   form ul.social li{
@@ -247,23 +278,26 @@ form ul.social li input[type="checkbox"]{
   margin-top: 20px;
 }
 
-.button{
+form ul.social li label{
   border-radius: 5px;
+  color: white;
+  padding: 2px;
 }
 
-.button#fb{
+form ul.social li label#navy{
   background-color: #114570;
 }
 
-.button#tweet{
+form ul.social li label#periwinkle{
   background-color: #2298f4;
+  margin-left: 3px;
 }
 
-.button#sqaure{
+form ul.social li label#purple{
   background-color: #3a599b;
 }
 
-.button#plus{
+form ul.social li label#green{
   background-color: #31cc66;
 }
 
@@ -279,7 +313,9 @@ form ul.social li input[type="checkbox"]{
   padding-left: 10px;
   position: relative;
 }
-
+.pie-charts ul li.text{
+  margin-left: 5px;
+}
 .piecharts ul.channels li.image img{
   width: 100%;
   position: absolute;
@@ -438,9 +474,11 @@ img#ad-3{
   box-shadow: 10px #e2e2e2;
   -moz-box-shadow: 10px #e2e2e2;
   -webkit-box-shadow: 10px #e2e2e2;
+  height: 55px;
+  margin-bottom: 0px;
 }
 ul.footer{
-  margin-left: 20px;
+  margin-left: 90px;
   margin-right: 20px;
 }
 ul.footer li{
@@ -449,4 +487,8 @@ ul.footer li{
 ul.footer li a{
   text-decoration: none;
   color: #2498f4;
+}
+
+ul.footer li#triangle{
+  margin-left: 60px;
 }

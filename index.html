@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href="css/sprites-1.css" rel="stylesheet">
   <link href="css/sprites-2.css" rel="stylesheet">
+  <link href="css/sprites-3.css" rel="stylesheet">
+  <link href="css/sprites-4.css" rel="stylesheet">
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -40,7 +42,7 @@
         </div>
 
 
-          <div class="row icons">
+          <div class="row icons hidden-sm hidden-xs">
             <div class="nav-icons collaspe navbar-collapse">
               <div class="col-md-2">
                 <a href="#"><div class="dashboard-top"></div></a>
@@ -62,7 +64,32 @@
               </div>
             </div>
           </div><!--closing row-->
+
+        </div><!--end of container-fluid-->
+
+        <!--MOBILE-->
+        <div class="row visible-xs visible-sm">
+        <div class="col-xs-12 ">
+          <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                  </button>
+              </div>
+              <div class="collapse navbar-collapse navbar-menubuilder">
+                  <ul class="nav navbar-nav navbar-left">
+                    <li role="presentation" class="active"><a href="#">Home</a></li>
+                    <li role="presentation"><a href="#">Customers</a></li>
+                    <li role="presentation"><a href="#">Messages</a></li>
+                    <li role="presentation"><a href="#">Promotions</a></li>
+                    <li role="presentation"><a href="#">Page Creator</a></li>
+                    <li role="presentation"><a href="#">Analytics</a></li>
+                  </ul>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 
     <!--end of navigation-->
 
@@ -120,10 +147,16 @@
                       </div>
                         <div class="row border-bottom">
                           <div class="col-md-12 numeral">
-                            <a href="#">
-                              <div id="label"><span class="digit"><p>1</p></span> Welcome Contacts
-                                <span id="count"><img src="images/person-icon.png"/>32</span>
+                            <a href="#" class="bust">
+                              <div class="tasks-circle">
+                                <p>1</p>
                               </div>
+                              <div class="tasks-person-icon">
+                                <div class="tasks-person-icon-blue"></div>
+                              </div>
+                              <!--<div id="label"><span class="digit"><p>1</p></span> Welcome Contacts
+                                <span id="count"><img src="images/person-icon.png"/>32</span>
+                              </div>-->
                             </a>
                           </div>
                         </div>
@@ -180,7 +213,22 @@
                           <div class="row border-bottom">
                             <div class="col-md-9">
                               <h1>Analytics</h1>
-                                <p class="sub-head">Activity</p>
+                                <div class="btn-group">
+
+                                  <button type="button" class="btn">6/28/11 - 07/21/11</button>
+                                  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span><img src="images/arrow-down.png"/></span>
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                  </button>
+                                  <ul class="dropdown-menu">
+                                    <li><a href="#">10/10/1995</a></li>
+                                    <li><a href="#">5/4/2003</a></li>
+                                    <li><a href="#">8/8/1997</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">More Dates</a></li>
+                                  </ul>
+                                  <p class="sub-head">Activity</p>
+                                </div>
                               <!--Analytics chart-->
                                 <div class="analytics-chart">
                                   <img src="images/analytics-chart.png" alt="Graph of activity by date" id="bar-graph"/>
@@ -190,9 +238,9 @@
                               <!--channels graph-->
                               <div class="pie-charts">
                                 <ul class="channels">
-                                  <li>Channels</li>
+                                  <li class="text">Channels</li>
                                   <li class="image"><img src="images/pie-chart-1.png"/></li>
-                                  <li>References</li>
+                                  <li class="text">References</li>
                                   <li class="image"><img src="images/pie-chart-2.png"/></li>
                                 </ul>
                               </div>
@@ -201,14 +249,10 @@
                                 <div class="col-md-12">
                                   <form>
                                     <ul class="social">
-                                      <li><input type="checkbox" name="Facebook" value="Facebook"checked></li>
-                                      <li><button class="button" id="fb"><p>Facebook</p></button></li>
-                                      <li><input type="checkbox" name="Twitter" value="Twitter" checked></li>
-                                      <li><button class="button" id="tweet"><p>Twitter</p></button></li>
-                                      <li><input type="checkbox" name="Foursquare" value="Foursquare"></li>
-                                      <li><button class="button" id="sqaure"><p>Foursquare</p></button></li>
-                                      <li><input type="checkbox" name="Google+" vlaue="Google+"></li>
-                                      <li><button class="button" id="plus"><p>Googe+</p></button></li>
+                                      <li><input type="checkbox" name="Facebook" value="Facebook" id="fb"checked> <label for="fb" id="navy">Facebook</label></li>
+                                      <li><input type="checkbox" name="Twitter" value="Twitter" id="tweet" checked><label for="tweet" id="periwinkle">Twitter</label></li>
+                                      <li><input type="checkbox" name="Foursquare" value="Foursquare" id="square"> <label for="sqaure" id="purple">Foursqaure</label></li>
+                                      <li><input type="checkbox" name="Google+" vlaue="Google+" id="pluse"> <label for="plus" id="green">Google+</label></li>
                                     </ul>
                                   </form>
                                 </div>
@@ -308,7 +352,7 @@
     <!--start of footer-->
       <div class="container-fluid">
         <div class="row grey">
-          <div class="col-md-12">
+          <div class="hidden-sm hidden-xs col-md-12">
             <ul class="footer">
               <li><a href="#">Tutorials</a></li>
               <li><img src="images/line-1.png"/></li>
@@ -317,13 +361,43 @@
               <li><a href="#">Blog</a></li>
               <li><img src="images/line-3.png"/></li>
               <li><a href="#">Ariel Winter</a> likes your <a href="#">Win A Cooper Sweepstakes</a> Promotion</li>
-              <li><a class="button" href="#"><img src="images/up-arrow.png"/></a></li>
+              <li id="triangle"><a class="button" href="#"><img src="images/up-arrow.png"/></a></li>
               <li><img src="images/line-3.png"/></li>
+              <li><img src="images/logout-pic.png"/></li>
               <li><a href="#">Logout</a></li>
               <li><img src="images/line-3.png"/></li>
-              <li>Social Icons</li>
+              <li><a href="#"><img class="facebook-dead"/></a></li>
+              <li><a href="#"><img class="twitter-dead"/></a></li>
+              <li><a href="#"><img class="foursquare-dead"/></a></li>
+              <li><a href="#"><img class="youtube-dead"/></a></li>
+            </ul>
+          </div><!--end of large footer-->
+
+          <div class="col-sm-12 col-xs-12"/>
+            <ul class="footer">
+              <li><a href="#">Tutorials</a></li>
+              <li><img src="images/line-1.png"/></li>
+              <li><a href="#">Support</a></li>
+              <li><img src="images/line-2.png"/></li>
+              <li><a href="#">Blog</a></li>
             </ul>
           </div>
+          <div class="col-sm-12 col-xs-12">
+            <ul class="footer">
+              <li><a href="#">Ariel Winter</a> likes your <a href="#">Win A Cooper Sweepstakes</a> Promotion</li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-xs-12">
+            <ul class="footer">
+              <li><a href="#"><img class="facebook-dead"/></a></li>
+              <li><a href="#"><img class="twitter-dead"/></a></li>
+              <li><a href="#"><img class="foursquare-dead"/></a></li>
+              <li><a href="#"><img class="youtube-dead"/></a></li>
+              <li><img src="images/logout-pic.png"/></li>
+              <li><a href="#">Logout</a></li>
+            </ul>
+          </div>
+
         </div>
       </div>
     <!--end of footer-->
