@@ -9,7 +9,7 @@
 	position: absolute;
 	left: 125px;
 	right: 80px;
-	bottom: 142px;
+	bottom: 152px;
 	z-index: 100;
 }
 
@@ -33,6 +33,16 @@
 	bottom: 86px;
 }
 
+.ribbon-right#orange-dude{
+	background-position: -312px -44px ;
+	width: 72px;
+	height: 72px;
+	position: absolute;
+	left: 318px;
+	bottom: 95px;
+}
+
+
 .ribbon-left{
 	background-position: -264px -43px ;
 	width: 72px;
@@ -40,6 +50,15 @@
 	position: absolute;
 	left: -22px;
 	bottom: 86px;
+}
+
+.ribbon-left#orange-dude-1{
+	background-position: -264px -43px ;
+	width: 72px;
+	height: 72px;
+	position: absolute;
+	left: -22px;
+	bottom: 95px;
 }
 
 .chart-1{

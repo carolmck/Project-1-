@@ -124,6 +124,10 @@ p.text{
   margin-left: 5px;
 }
 
+#small-arrows{
+  margin-left: 130px;
+}
+
 h1{
   font-family:"Myriad Pro Regular", sans-serif;
   font-size: 2em;
@@ -247,7 +251,7 @@ ul li.last{
 }
 ul li#title{
   margin-top: -13px;
-  font-size:.7em;
+  font-size:.9em;
   color: #818181;
   border-bottom: 1px dotted #818181;
 }
@@ -261,12 +265,12 @@ ul li#sub-title{
   font-size:.6em;
   color:#999999;
   margin-left: 40px;
-  margin-top: 5px;
+  margin-top: 40px;
 }
 
 ul li#title img{
   margin-right: 10px;
-  margin-left:
+
 }
 ol.tasks li{
   color: #2498f3;
@@ -280,8 +284,12 @@ p.sub-head{
   margin-left: 25px;
 }
 
-div.btn-group p, div.btn-group button.btn{
+.button-line p, .button-line div.btn-group{
   display: inline-block;
+}
+
+.button-line div.btn-group{
+  margin-left: 200px;
 }
 
 button.btn{
@@ -399,6 +407,10 @@ div.banner p#banner-small{
 
 .binder{
   margin-top: 40px;
+}
+
+#padding-2{
+  padding-bottom: 10px;
 }
 .box-padding{
   padding-top: 50px;
