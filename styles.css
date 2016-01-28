@@ -381,30 +381,47 @@ form ul.social{
   display: inline;
 }
 
-form ul.social li input[type="checkbox"]{
-  margin-top: 20px;
+ input[type="checkbox"]{
+  margin-top: 30px;
+  display: none;
+}
+label span, label p{
+  display: inline-block;
+}
+input[type="checkbox"]+ label span{
+  display: inline-block;
+  width:23px;
+  height:23px;
+  margin:-1px 4px 0 20px;
+  vertical-align:middle;
+  background: url("images/orange-check-holder.png") left top no-repeat;
+  cursor: pointer;
 }
 
-form ul.social li label{
+input[type="checkbox"]:checked + label span{
+  background: url("images/orange-check-active.png")top no-repeat;
+}
+
+form ul.social li label p{
   border-radius: 5px;
   color: white;
   padding: 2px;
 }
 
-form ul.social li label#navy{
+form ul.social li label#navy p{
   background-color: #114570;
 }
 
-form ul.social li label#periwinkle{
+form ul.social li label#periwinkle p{
   background-color: #2298f4;
   margin-left: 3px;
 }
 
-form ul.social li label#purple{
+form ul.social li label#purple p{
   background-color: #3a599b;
 }
 
-form ul.social li label#green{
+form ul.social li label#green p{
   background-color: #31cc66;
 }
 
