@@ -187,23 +187,49 @@ div.numeral a.active a:hover{
   color: #2498f3;
 }
 
-div.numeral span#count{
+div.numeral span#count-1{
   border: 1px solid #cccccc;
   border-radius: 5px;
   padding: 2px;
+  margin-left: 95px;
 }
 
-#count{
-  margin-left: 80px;
+div.numeral span#count-2{
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 2px;
+  margin-left: 95px;
 }
+div.numeral span#count-3{
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 2px;
+  margin-left: 125px;
+}
+
+div.numeral span#count-4{
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 2px;
+  margin-left: 150px;
+}
+
+
+
 
 div#label span.digit p{
   color: white;
   background-color: #32cc66;
   border-radius: 50%;
-  padding: 4px;
+  height: 24px;
+  width: 24px;
+  padding-left: 6px;
+  padding-right: 4px;
+  padding-top: 2px;
   display: inline-block;
 }
+
+
 
 div#label span.digit a:hover{
     color: #2498f3;
@@ -369,6 +395,13 @@ div.banner p#banner-big{
 
 div.banner p#banner-small{
   font-size: .8em;
+}
+
+.binder{
+  margin-top: 40px;
+}
+.box-padding{
+  padding-top: 50px;
 }
 
 div#know{
