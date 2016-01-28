@@ -140,11 +140,9 @@ h1{
 }
 
 .setting-bar img{
-  margin-left:50%;
+  margin-left:195px;
 }
-div.numeral a.bsut p, div.numeral a.bust div.tasks-person-icon{
-  display: inline-block;
-}
+
 div.numeral div.tasks-circle{
   background-color: #32cc66;
   width: 24px;
@@ -174,6 +172,81 @@ color: #2498f3;
 text-decoration: none;
 display: inline-block;
 }
+
+/*Trying new CSS*/
+
+a#task-hover a:hover{
+  color: #cccccc;
+}
+
+a#task-hover a:link{
+  color:#2498f3;
+}
+
+p.new-title{
+  /*margin-top: 10px;
+  margin-left: -25px;*/
+}
+
+span.count-holder img.tasks-person-icon-blue, span.count-holder p.new-title{
+  display: inline-block;
+}
+
+span.count-holder{
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  padding: 5px;
+  position: absolute;
+  margin-top: 3px;
+}
+
+.new-header{
+  margin-top: 10px;
+  margin-left:-20px;
+}
+
+a:link .new-header{
+  color: #2498f3;
+  font-family:"Myriad Pro Regular", sans-serif;
+}
+
+a:hover .new-header{
+  color: #cccccc;
+}
+
+a:link .new-title{
+  color: #2498f3;
+  font-family:"Myriad Pro Regular", sans-serif;
+}
+
+a:hover .new-title{
+  color: #cccccc;
+}
+
+#mobile-task div#label, #mobile-task p.new-header, #mobile-task span.count-holder{
+  display: inline-block;
+}
+#mobile-task div#label{
+  margin-left: 5px;
+}
+
+#mobile-task p.new-header{
+  margin-left: 20px;
+}
+
+#mobile-task span.count-holder{
+  margin-left: 50px;
+}
+
+#mobile-task span#mobile-count-2{
+  margin-left: 75px;
+}
+
+#mobile-task span#mobile-count-3{
+  margin-left:100px;
+}
+/*end of trying new Css*/
+
 
 div.numeral  #label{
   display: inline-block;

@@ -151,44 +151,131 @@
                       <div class="setting-bar">
                         <h1>Tasks</h1><a href="#"><img src="images/settings-2.png"/></a>
                       </div>
-                        <div class="row border-bottom">
-                          <div class="col-md-12 numeral">
-                            <a href="#">
-                              <div id="label"><span class="digit"><p>1</p></span> Welcome Contacts
-                                <span id="count-1"><img src="images/person-icon.png"/>32</span>
-                              </div>
-                            </a>
-                          </div>
+                        <div class="row border-bottom"><!--use this as example-->
+                          <a href="#" id="task-hover">
+                            <div class="col-md-2 numeral hidden-sm hidden-xs">
+                                <div id="label"><span class="digit"><p>1</p></span>
+                                </div>
+                            </div>
+                            <div class="col-md-7 hidden-sm hidden-xs">
+                              <p class="new-header">Welcome Contacts</p>
+                            </div>
+                            <div class="col-md-3 hidden-sm hidden-xs">
+                              <span class="count-holder">
+                                <img class="tasks-person-icon-blue"/>
+                                <p class="new-title">32</p>
+                              </span>
+                            </div>
+                          </a>
                         </div>
                         <div class="row border-bottom">
-                          <div class="col-md-12 numeral">
-                            <a href="#">
-                              <div id="label"><span class="digit"><p>2</p></span> Provide Responses
-                                <span id="count-2"><img src="images/icon-person-blue.png"/>36</span>
+                          <a href="#">
+                          <div class="col-md-2 numeral hidden-sm hidden-xs">
+                              <div id="label"><span class="digit"><p>2</p></span>
                               </div>
-                            </a>
-                          </div>
+                            </div>
+                            <div class="col-md-7 hidden-sm hidden-xs">
+                              <p class="new-header">Provide Responses</p>
+                            </div>
+                            <div class="col-md-3 hidden-sm hidden-xs">
+                              <span class="count-holder">
+                                <img class="tasks-person-icon-blue"/>
+                                <p class="new-title">36</p>
+                              </span>
+                            </div>
+                          </a>
                         </div>
                         <div class="row border-bottom">
-                          <div class="col-md-12 numeral">
-                            <a href="#">
-                              <div id="label"><span class="digit"><p>3</p></span> Review Activty
-                                <span id="count-3"><img src="images/icon-person-blue.png"/>36</span>
+                          <a href="#">
+                          <div class="col-md-2 numeral hidden-sm hidden-xs">
+                              <div id="label"><span class="digit"><p>3</p></span>
                               </div>
-                            </a>
-                          </div>
+                            </div>
+                            <div class="col-md-7 hidden-sm hidden-xs">
+                              <p class="new-header">Review Activity</p>
+                            </div>
+                            <div class="col-md-3 hidden-sm hidden-xs">
+                              <span class="count-holder">
+                                  <img class="tasks-person-icon-blue"/>
+                                  <p class="new-title">36</p>
+                              </span>
+                            </div>
+                          </a>
                         </div>
                         <div class="row border-bottom">
-                          <div class="col-md-12 numeral">
-                            <a href="#">
-                              <div id="label"><span class="digit"><p>4</p></span> Reach Out
-                                <span id="count-4"><img src="images/icon-person-blue.png"/>3</span>
+                          <a href="#">
+                          <div class="col-md-2 numeral hidden-sm hidden-xs">
+                              <div id="label"><span class="digit"><p>4</p></span>
                               </div>
-                            </a>
-                          </div>
+                            </div>
+                            <div class="col-md-7 hidden-sm hidden-xs">
+                              <p class="new-header">Reach Out</p>
+                            </div>
+                            <div class="col-md-3 hidden-sm hidden-xs">
+                              <span class="count-holder">
+                                  <img class="tasks-person-icon-blue"/>
+                                  <p class="new-title">3</p>
+                              </span>
+                            </div>
+                          </a>
                         </div>
                       </div>
+                      <!--MOBILE-->
+                      <div class="row border-bottom hidden-md hidden-lg">
+                        <a href="#">
+                      <div class="col-sm-12 col-xs-12 numeral hidden-md hidden-lg" id="mobile-task">
+                        <div id="label"><span class="digit"><p>1</p></span>
+                        </div>
+                        <p class="new-header">Welcome Contacts</p>
+                        <span class="count-holder">
+                          <img class="tasks-person-icon-blue"/>
+                          <p class="new-title">36</p>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                      <div class="row border-bottom hidden-md hidden-lg">
+                        <a href="#">
+                      <div class="col-sm-12 col-xs-12 numeral hidden-md hidden-lg" id="mobile-task">
+                        <div id="label"><span class="digit"><p>2</p></span>
+                        </div>
+                        <p class="new-header">Provide Responses</p>
+                        <span class="count-holder">
+                          <img class="tasks-person-icon-blue"/>
+                          <p class="new-title">36</p>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="row border-bottom hidden-md hidden-lg">
+                    <a href="#">
+                  <div class="col-sm-12 col-xs-12 numeral hidden-md hidden-lg" id="mobile-task">
+                    <div id="label"><span class="digit"><p>3</p></span>
                     </div>
+                    <p class="new-header">Review Activity</p>
+                    <span class="count-holder" id="mobile-count-2">
+                      <img class="tasks-person-icon-blue"/>
+                      <p class="new-title">36</p>
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div class="row border-bottom hidden-md hidden-lg">
+                <a href="#">
+              <div class="col-sm-12 col-xs-12 numeral hidden-md hidden-lg" id="mobile-task">
+                <div id="label"><span class="digit"><p>4</p></span>
+                </div>
+                <p class="new-header">Reach Out</p>
+                <span class="count-holder" id="mobile-count-3">
+                  <img class="tasks-person-icon-blue"/>
+                  <p class="new-title">3</p>
+                </span>
+              </div>
+            </a>
+          </div>
+
+
+                    </div><!--end of tasks row-->
                     <!--start of recommendations box-->
                       <div class="row">
                         <div class="col-md-12 border-bottom">

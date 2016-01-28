@@ -6,6 +6,13 @@
 	background-position: 0 0;
 	width: 30px;
 	height: 23px;
+	border: none;
+}
+
+a:hover .tasks-person-icon-blue{
+	background-position: -49px -1px ;
+	width: 30px;
+	height: 23px;
 }
 
 .tasks-person-icon-grey{
